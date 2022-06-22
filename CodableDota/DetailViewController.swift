@@ -28,9 +28,6 @@ class DetailViewController: UIViewController {
             legsLbl.text! += i + " | "
         }
         
-        
-        
-        
         image.downloaded(from: URL(string: "https://api.opendota.com\((hero.image))")!)
     }
 
